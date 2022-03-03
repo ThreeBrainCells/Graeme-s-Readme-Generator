@@ -27,7 +27,8 @@
   <a id="demonstration"></a>
   ## Demonstration
 -----------------------------------
-  ### Links and Screenshots go here
+  ### A video demonstration:
+  [README generation in action](./Graeme Readme Generator Demo.mp4)
 
   <a id="contributors"></a>
   ## Contribution Credits
