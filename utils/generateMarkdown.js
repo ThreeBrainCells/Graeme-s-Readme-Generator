@@ -45,38 +45,50 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   let licence = renderLicenseSection(data.license);
   return `# ${data.title}
-  ##By ${data.name}!
+  ## By ${data.name}!
 
-  ##Table of Contents
+  ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demonstration](#demonstration)
 - [Contributors](#contributors)
 - [License](#license)
 
-  <a name="description"/>
-  ##Project Description
-  ${data.description}
+  <a id="description"></a>
+  ## Project Description
+  ---------------------------------
+  ### ${data.description}
 
-  <a name="installation"/>
-  ##Installation Instructions
-  ${data.installation}
+  <a id="installation"></a>
+  ## Installation Instructions
+  -----------------
+  ### ${data.install}
 
-  <a name="usage"/>
-  ##User Instructions
-  ${data.usage}
+  <a id="usage"></a>
+  ## User Instructions
+  -----------------
+  ### ${data.usage}
 
-  <a name="contributors"/>
-  ##Contribution Credits
-  ${data.contributors}
+  <a id="demonstration"></a>
+  ## Demonstration
+-----------------------------------
+  ### Links and Screenshots go here
 
-  <a name="questions"/>
-  ##For Questions
-  My Github Profile is here: ${data.github}
+  <a id="contributors"></a>
+  ## Contribution Credits
+  -----------------------
+  ### ${data.contributors}
+
+  <a id="questions"></a>
+  ## For Questions
+---------------------------------
+  ### My Github Profile is here: ${data.github}
   
-  <a name=license>
-  ##Licensing
-  ${licence}`;
+  <a id="license"></a>
+  ## Licensing
+  ----------------------------
+  ## ${licence}`;
 
 
 }
