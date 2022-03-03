@@ -43,4 +43,4 @@
   ## Licensing
   ----------------------------
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-        More info: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+        More info: (https://opensource.org/licenses/MIT)
